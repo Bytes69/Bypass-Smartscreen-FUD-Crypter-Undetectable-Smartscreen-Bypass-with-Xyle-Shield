@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-public class AesEncryption
+public class AesEncryptione
 {
     // Method to encrypt a string
     public static string Encrypt(string plainText, byte[] key, byte[] iv)
@@ -23,3 +23,4 @@ public class AesEncryption
         
     }
 }
+
